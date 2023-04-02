@@ -1,0 +1,61 @@
+/* Style du fond de base */
+.sidenav {
+    width: 200px;
+    font-size: small;
+    box-shadow: 2px 0px 1px 1px #f4f5fa;
+}
+/* Style du logo (basic)*/
+.sidenav__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Style de l'image du logo */
+.sidenav__logo > img {
+    width: 60%;
+    margin: 10px 0;
+}
+/* Style de la barre de recherche (basic) */
+.sidenav__search {
+    margin: 2em 0;
+    position: relative;
+}
+/* Style du champs de saisie */
+.sidenav__search > input {
+    padding: 8px 10px;
+    border: 1px solid #f4f5fa;
+    box-shadow: 0px 1px 0px 1px #f4f5fa;
+    border-radius: 0px 50px 50px 0px;
+    position: relative;
+    outline-width: 0;
+}
+/* Alignement de l'icone de recherche */
+.sidenav__search>i {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 22px;
+    position: absolute;
+    cursor: pointer;
+}
+/* Style des liens (basic) */
+.sidenav a {
+    text-decoration: none;
+    color: #808080;
+}
+
+.sidenav__link li {
+    padding: 10px 15px;
+}
+
+.sidenav hr {
+    margin: 2em 0;
+    border: 1px solid #f4f5fa;
+}
+
+body {
+    font-family: Poppins;
+}
+
+.container {
+    display: flex;
+}
